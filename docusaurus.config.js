@@ -6,13 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'TerosHDL Docusaurus Docs',
+  tagline: 'Like the old docs, but (hopefully) better',
+  url: 'https://teroshdl.xenador-hermes.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo32.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -52,7 +52,7 @@ const config = {
         title: 'TerosHDL-Docusaurus-Docs',
         logo: {
           alt: 'TerosHDL logo',
-          src: 'img/logo.svg', /**replace with teroshdl logo */
+          src: 'img/logo.png',
         },
         items: [
           {
