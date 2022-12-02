@@ -52,14 +52,14 @@ const config = {
         title: 'TerosHDL-Docusaurus-Docs',
         logo: {
           alt: 'TerosHDL logo',
-          src: 'img/logo.png',
+          src: 'img/logo32.png',
         },
         items: [
           {
             type: 'doc',
-            docId: 'About',
+            docId: 'About/TerosHDL_IDE',
             position: 'left',
-            label: 'Tutorial',
+            label: 'TerosHDL_IDE',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -77,7 +77,7 @@ const config = {
             items: [
               {
                 label: 'About',
-                to: '/docs/About',
+                to: '/TerosHDL_IDE',
               },
             ],
           },
@@ -99,7 +99,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/xenador77',
+                href: 'https://github.com/teroshdl',
               },
             ],
           },

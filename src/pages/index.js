@@ -17,8 +17,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/about">
-            Start Here
+            to="/docs//About/TerosHDL_IDE">
+            Get Started
           </Link>
         </div>
       </div>
@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <Layout
       title={`TerosHDL Docs in Docusaurus`}
-      description="Description will go into a meta tag in <head />">
+      description="Documentation for the TereosHDL IDE and VS-Code extension">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

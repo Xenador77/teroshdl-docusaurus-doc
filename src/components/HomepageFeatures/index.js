@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/open-source.svg').default,
     description: (
       <>
-       The source code for TerosHDL and the VS-Code plugin are available for free on GitHub and contributions are welcome!
+       The TerosHDL IDE, and all source code is available on GitHub, licensed under the GPLv3
       </>
     ),
   },
@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/banner.svg').default,
     description: (
       <>
-        Many frameworks and tools can be accessed in vscode, saving you time and effort
+        Integrations can be accessed via GUI after a brief initial setup/configuration 
       </>
     ),
   },
