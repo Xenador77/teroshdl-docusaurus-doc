@@ -17,7 +17,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs//About/TerosHDL_IDE">
+            to="TerosHDL_IDE">
             Get Started
           </Link>
         </div>
@@ -30,7 +30,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`TerosHDL Docs in Docusaurus`}
+      title={`TerosHDL Documentation in Docusaurus`}
       description="Documentation for the TereosHDL IDE and VS-Code extension">
       <HomepageHeader />
       <main>

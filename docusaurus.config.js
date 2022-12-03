@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'TerosHDL Docusaurus Docs',
-  tagline: 'Like the old docs, but (hopefully) better',
+  title: 'TerosHDL Docs',
+  tagline: 'One IDE, Endless Possibilities',
   url: 'https://teroshdl.xenador-hermes.com',
   baseUrl: '/',
   onBrokenLinks: 'warn',
@@ -49,7 +49,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'TerosHDL-Docusaurus-Docs',
+        title: 'TerosHDL-Docs',
         logo: {
           alt: 'TerosHDL logo',
           src: 'img/logo32.png',
@@ -59,7 +59,7 @@ const config = {
             type: 'doc',
             docId: 'About/TerosHDL_IDE',
             position: 'left',
-            label: 'TerosHDL_IDE',
+            label: 'Tutorial',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -76,8 +76,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'About',
-                to: '/TerosHDL_IDE',
+                label: 'Team',
+                to: '/docs/About/Team.md',
               },
             ],
           },
@@ -94,17 +94,17 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Quickstart',
+                to: '/docs/About/Dependencies.mdx',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/teroshdl',
+                href: 'https://github.com/xenador77',
               },
             ],
           },
         ],
-        copyright: `GPLv3 ${new Date().getFullYear()} TerosHDL-Docusaurus-Docs, Built with Docusaurus.`,
+        copyright: `GPLv3 ${new Date().getFullYear()} TerosHD-Docs, Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
