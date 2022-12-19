@@ -59,7 +59,7 @@ const config = {
             type: 'doc',
             docId: 'About/TerosHDL_IDE',
             position: 'left',
-            label: 'Tutorial',
+            label: 'About',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -77,7 +77,7 @@ const config = {
             items: [
               {
                 label: 'Team',
-                to: '/docs/About/Team.md',
+                to: '/docs/About/Team',
               },
             ],
           },
@@ -94,8 +94,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Quickstart',
-                to: '/docs/About/Dependencies.mdx',
+                label: 'Dependencies',
+                to: '/docs/About/Dependencies',
               },
               {
                 label: 'GitHub',

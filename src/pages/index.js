@@ -17,7 +17,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="TerosHDL_IDE">
+            to="docs/About/TerosHDL_IDE">
             Get Started
           </Link>
         </div>
