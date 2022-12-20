@@ -1,5 +1,7 @@
 ---
-title: Thanks to
+title: "Thanks to"
+id: Thanks
+sidebar_position: 4
 ---
 
 We develop tools but also integrate other open source projects:
