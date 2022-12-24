@@ -1,33 +1,54 @@
 ---
-title: Python 3
+title: Python 3 Configuration 
 ---
 
-Python 3 is automatically usable by TerosHDL if it's in your system
-path, but a custom path can be configured if it's not. You need the
-provide the complete path Python (included binary).
+# Python 3 Configuration
+-------
+## On system $PATH
+Python 3 is automatically usable by TerosHDL if it's on your system \$PATH, no additional configuration is required.
 
-![image](\static\img\config_python.png)
+## Custom Path
 
-** Python 3 in system path **
+:::tip Not the same as custom paths for integrations
 
-You don\'t need to configure it.
+specify the path to the python binary itself, not the directory
 
-Example custom path in Linux
+:::
 
+Example custom path for Linux users:
  `/home/teroshdl/custom/python3`
 
-Example custom path in Windows:
+Example custom path for Windows users:
+ ```pwsh
+ C:\Users\Ron\AppData\Local\Programs\Python\Python37-32
+ ```
 
-`C:\Users\Ron\AppData\Local\Programs\Python\Python37-32`
-(Be careful with the blank spaces.)
+:::tip 
+
+Be careful with blank spaces
+
+:::
+
 # Example with Anaconda
 
-`conda activate my_en; python`
+```terminal
+conda activate my_en; python
+```
 
-**If you use Windows you have to replace \';\' by \'&\'**
+:::warning Windows users
+
+ replace \';\' with \'&\'
+
+:::
 
 # Example with virtualenv
 
+'''
 `. .venv/bin/activate; python`
+'''
 
-**If you use Windows you have to replace \';\' by \'&\'**
+:::warning Windows users
+
+ replace \';\' with \'&\' for this command as well
+
+:::
