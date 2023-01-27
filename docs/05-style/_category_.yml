@@ -1,0 +1,9 @@
+label: 'Linting (style checking)'
+collapsible: true # make the category collapsible
+collapsed: true # keep the category open by default
+className: red
+link:
+  type: generated-index
+  title: Tutorial overview
+customProps:
+  description: Helps you avoid errors and enforce conventions in your styles.

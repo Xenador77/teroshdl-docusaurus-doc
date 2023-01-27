@@ -1,0 +1,9 @@
+label: 'Linting (error checking)'
+collapsible: true # make the category collapsible
+collapsed: true
+className: red
+link:
+  type: generated-index
+  title: Tutorial overview
+customProps:
+  description: Linting highlights syntactical and stylistic problems in your source code, which often helps you identify and correct subtle programming errors or unconventional coding practices that can lead to errors.

@@ -1,0 +1,27 @@
+name: 'doc'
+on:
+
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+
+  BTD:
+    name: '📓 Docs'
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: '🧰 Checkout'
+      uses: actions/checkout@v3
+
+    - name: '📓 BuildTheDocs'
+      run: |
+        npm install
+        npm run build
+
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: build
