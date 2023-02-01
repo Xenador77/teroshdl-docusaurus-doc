@@ -1,0 +1,102 @@
+---
+description: VHDL elements
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import CodeBlock from '@theme/CodeBlock';
+
+
+import myImageUrl from '../../static/img/documenter/vhdl/process.png';
+
+# VHDL elements
+
+<center>
+
+| VHDL               | SV/Verilog         |
+|--------------------|--------------------|
+| Entity description | Module description |
+| Ports              | Ports              |
+| Generics           | Parameters         |
+| Constants          | Constants          |
+| Signals            | regs/wires         |
+| Processes          | Always             |
+| Instances          | Instances          |
+| Functions          | Functions          |
+| Types              | Types              |
+
+</center>
+
+
+export const Hdl = ({name, children, image}) => (
+    <div>
+    <h1> {name} </h1>
+    <Tabs>
+    <TabItem value="windows" label="Code" default>
+    <CodeBlock language="vhdl">{children}</CodeBlock>
+    </TabItem>
+    <TabItem value="linux" label="Documentation">
+    <img src={image} alt="Example banner" />;
+    </TabItem>
+    </Tabs>
+    </div>
+);
+
+export const vhdl_elements = [
+    {
+        'name': "Entity",
+        'code': entity
+    },
+    {
+        'name': "Package",
+        'code': pkg
+    },
+    {
+        'name': "Generic",
+        'code': generic
+    },
+    {
+        'name': "Port",
+        'code': port
+    },
+    {
+        'name': "Signal",
+        'code': signal
+    },
+    {
+        'name': "Constant",
+        'code': constant
+    },
+    {
+        'name': "Function",
+        'code': f
+    },
+    {
+        'name': "Process",
+        'code': process
+    },
+    {
+        'name': "Type",
+        'code': tp
+    },
+]
+
+
+import entity from '!!raw-loader!./examples/vhdl/entity.vhd';
+import pkg from '!!raw-loader!./examples/vhdl/package.vhd';
+import generic from '!!raw-loader!./examples/vhdl/generic.vhd';
+import port from '!!raw-loader!./examples/vhdl/port.vhd';
+import signal from '!!raw-loader!./examples/vhdl/signal.vhd';
+import constant from '!!raw-loader!./examples/vhdl/constant.vhd';
+import f from '!!raw-loader!./examples/vhdl/function.vhd';
+import process from '!!raw-loader!./examples/vhdl/process.vhd';
+import tp from '!!raw-loader!./examples/vhdl/type.vhd';
+
+<Hdl name={vhdl_elements[0]["name"]} image={myImageUrl}>{vhdl_elements[0]["code"]}</Hdl>
+<Hdl name={vhdl_elements[1]["name"]} image={myImageUrl}>{vhdl_elements[1]["code"]}</Hdl>
+<Hdl name={vhdl_elements[2]["name"]} image={myImageUrl}>{vhdl_elements[2]["code"]}</Hdl>
+<Hdl name={vhdl_elements[3]["name"]} image={myImageUrl}>{vhdl_elements[3]["code"]}</Hdl>
+<Hdl name={vhdl_elements[4]["name"]} image={myImageUrl}>{vhdl_elements[4]["code"]}</Hdl>
+<Hdl name={vhdl_elements[5]["name"]} image={myImageUrl}>{vhdl_elements[5]["code"]}</Hdl>
+<Hdl name={vhdl_elements[6]["name"]} image={myImageUrl}>{vhdl_elements[6]["code"]}</Hdl>
+<Hdl name={vhdl_elements[7]["name"]} image={myImageUrl}>{vhdl_elements[7]["code"]}</Hdl>

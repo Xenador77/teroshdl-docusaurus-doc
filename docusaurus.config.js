@@ -85,7 +85,6 @@ const config = {
           },
         ],
       },
-
       // announcementBar: {
       //   id: 'support_us',
       //   content:
@@ -143,10 +142,8 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['java', 'vhdl', 'verilog', 'powershell'],
       },
-
-
-
     }),
 };
 
