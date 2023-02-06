@@ -24,8 +24,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'TerosHDL', // Usually your repo name.
+  organizationName: 'TerosTechnology', // Usually your GitHub org/user name.
+  projectName: 'teroshdl-docusaurus-doc', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -45,14 +45,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/TerosTechnology/teroshdl-docusaurus-doc/blob/main/docs/01-introduction.md',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -73,13 +66,13 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'About/TerosHDL_IDE',
             position: 'left',
-            label: 'Tutorial',
+            label: 'TerosHDL_IDE',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/docs', label: 'Docs', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/TerosTechnology/teroshdl-docusaurus-doc',
             label: 'GitHub',
             position: 'right',
           },
@@ -101,8 +94,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Start Here',
+                to: '/docs/About/TerosHDL_IDE'
               },
             ],
           },
@@ -110,16 +103,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/xenador77',
               },
             ],
           },
@@ -127,12 +112,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/TerosTechnology/teroshdl-docusaurus-doc',
               },
             ],
           },
