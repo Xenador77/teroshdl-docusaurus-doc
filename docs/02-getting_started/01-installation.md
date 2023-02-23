@@ -14,15 +14,16 @@ import TabItem from '@theme/TabItem';
     <ul>
         <li>Install VSCode: https://code.visualstudio.com/download</li>
         <li>Download and install Python3: https://www.python.org/downloads/</li>
-        <li>Start Command Prompt Start > cmd and use the Python package manager to install all required TerosHDL packages:</li>
+        <li>Start Command Prompt Start > cmd and use the Python package manager to install all required TerosHDL packages:</li> 
         <code>
-        <p># Manually</p>
+        <p>pip3 install teroshdl</p>
+        </code>
+        <li> Alternatively, you can install all the python requirements manually:</li>
+        <code>
         <p>pip3 install vunit-hdl</p>
         <p>pip3 install edalize</p>
         <p>pip3 install yowasp-yosys</p>
         <p>pip3 install vsg</p>
-        <p># Or all together</p>
-        <p>pip3 install teroshdl</p>
         </code>
     </ul>  
   </TabItem>
