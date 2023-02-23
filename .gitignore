@@ -20,3 +20,5 @@ yarn-debug.log*
 yarn-error.log*
 
 back_docs
+.vscode
+settings.json

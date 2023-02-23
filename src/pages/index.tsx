@@ -28,8 +28,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/02-getting_started/01-installation">
-            Installation
+            to="/docs/About/TerosHDL_IDE">
+            Start here
           </Link>
         </div>
       </div>

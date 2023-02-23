@@ -1,0 +1,37 @@
+---
+title: Installation
+sidebar_label: Installation
+sidebar_position: 4
+---
+
+#[VSCode](https://code.visualstudio.com/download)
+
+# Dependencies
+In order for the tools to be automatically managed by the TerosHDL VS-Code extension, a few dependencies must be installed:
+## Python3
+* [How to install Python3](https://realpython.com/installing-python/)
+  * Once installed (and on path), specify the install directory in the TerosHDL extension settings
+:::tip
+More information about configuring Python3 to work with TerosHDL [here](../configuration/python)
+:::
+#### Required Python Packages
+  * Now that Python is setup we can run the following to install the necessary libraries:
+  ```shell
+  pip3 install teroshdl
+  ```
+  * Or install VUnit, Edalize, and YoWASP-Yosys manually: 
+  
+  ```shell
+  pip3 install vunit-hdl vsg yowasp-yosys edalize
+  ```
+
+:::tip
+Windows users, replace 'pip3' with 'pip'
+:::
+
+## Make:
+  * [Install Make on Linux](https://www.gnu.org/software/make/) 
+  * [Install Make on Windows](http://gnuwin32.sourceforge.net/packages/make.htm)
+## Simulators
+  * Simulators aren't automatically installed via the TerosHDL_IDE.
+    * To simulate your designs you need to install your preferred simulator and configure it properly in the extension settings

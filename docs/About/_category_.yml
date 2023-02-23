@@ -1,0 +1,11 @@
+label: 'About'
+position: 1
+collapsible: true
+collapsed: true
+className: red
+link: 
+  type: generated-index
+  title: About
+customProps:
+  description: What is TerosHDL, and who founded Teros Technology?
+  

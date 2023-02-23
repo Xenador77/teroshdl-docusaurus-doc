@@ -70,7 +70,6 @@ const config = {
             position: 'left',
             label: 'TerosHDL_IDE',
           },
-          {to: '/docs', label: 'Docs', position: 'left'},
           {
             href: 'https://github.com/TerosTechnology/teroshdl-docusaurus-doc',
             label: 'GitHub',

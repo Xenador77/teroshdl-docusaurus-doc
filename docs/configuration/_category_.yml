@@ -1,0 +1,10 @@
+label: 'Configuration'
+position: 2
+collapsible: true
+collapsed: true
+className: red
+link: 
+  type: generated-index
+  title: Configuration
+customProps:
+  description: How to configure the VS Code extension

@@ -12,5 +12,6 @@
         "WaveDrom",
         "xhdl",
         "xvlog"
-    ]
+    ],
+    "mdx-preview.preview.useVscodeMarkdownStyles": false
 }
